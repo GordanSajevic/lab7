@@ -1,6 +1,6 @@
 package lab5;
 
-public class kamata {
+public class Kamata {
 	public static void main(String[] args) {
 
 		double glavnica = 500;
