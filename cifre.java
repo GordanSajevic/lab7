@@ -1,6 +1,6 @@
 package lab5;
 
-public class cifre {
+public class Cifre {
 	public static void main(String args[]){
 		double broj=10000+Math.random()*90000;
 		System.out.println("Nasumicni broj je: " + (int) broj);
