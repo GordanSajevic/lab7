@@ -1,6 +1,6 @@
 package lab5;
 
-public class korijen {
+public class Korijen {
 	public static void main(String[] args) {
 
 		double broj=67;
