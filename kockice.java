@@ -1,6 +1,6 @@
 package lab5;
 
-public class kockice {
+public class Kockice {
 	public static void main(String[] args) {
 
 		double kocka1=1+Math.random()*6;
