@@ -1,6 +1,6 @@
 package lab5;
 
-public class inicijali {
+public class Inicijali {
 	public static void main(String[] args) {
 
 		System.out.println("********       ********");
