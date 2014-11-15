@@ -1,6 +1,6 @@
 package lab5;
 
-public class kvadratIKrug {
+public class KvadratIKrug {
 	public static void main(String[] args) {
 
 		double broj=7;
