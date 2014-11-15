@@ -1,6 +1,6 @@
 package lab5;
 
-public class sabiranjeDvaRandomBroja {
+public class SabiranjeDvaRandomBroja {
 	public static void main(String[] args){
 
 		double a1=Math.random();
