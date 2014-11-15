@@ -1,6 +1,6 @@
 package lab5;
 
-public class volumenIPovrsina {
+public class VolumenIPovrsina {
 	public static void main(String args[]){
 		double broj1=Math.random()*51;
 		double broj2=Math.random()*51;
