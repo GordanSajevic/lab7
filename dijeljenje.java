@@ -1,6 +1,6 @@
 package lab5;
 
-public class dijeljenje {
+public class Dijeljenje {
 	public static void main(String[] args) {
 
 		int prviBroj=5;
