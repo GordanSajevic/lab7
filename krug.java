@@ -1,6 +1,6 @@
 package lab5;
 
-public class krug {
+public class Krug {
 	public static void main(String[] args) {
 
 		double r=5;
