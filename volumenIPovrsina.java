@@ -2,12 +2,10 @@ package lab5;
 
 public class VolumenIPovrsina {
 	public static void main(String args[]){
-		double broj1=Math.random()*51;
-		double broj2=Math.random()*51;
-		int broj1Int=(int) broj1;
-		int broj2Int=(int) broj2;
-		System.out.println("Prvi nasumicni broj je: " + broj1Int);
-		System.out.println("Drugi nasumicni broj je: " + broj2Int);
+		Scanner unos = new Scanner(System.in);
+		System.out.println("Unesite prvi broj: ");
+		double broj1 = unos.nextDouble();
+		System.out.println("Unesite drugi broj: ");
 		double volumenPiramide=((int)broj1*(int)broj1*broj2Int)/3;
 		double stranicaPiramide=(broj1*Math.sqrt(broj1Int*broj1Int-(broj1Int*broj1Int))/4)/2;
 		double povrsinaPiramide=broj1Int*broj1Int+4*stranicaPiramide;
