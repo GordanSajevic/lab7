@@ -1,9 +1,11 @@
 package projekat;
 
-public class jmbg {
+public class Jmbg {
 	
 	public static void main(String[] args) {
-	String jmbg="1608990190145";
+	Scanner unos=new Scanner(System.in);
+	System.out.println("Unesite svoj matični broj: ");
+	String jmbg=unos.next();
 	String danRodjenja=jmbg.substring(0,2);
 	String mjesecRodjenja=jmbg.substring(2, 4);
 	String godinaRodjenja=jmbg.substring(4, 7);
