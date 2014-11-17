@@ -1,12 +1,13 @@
 package projekat;
 
-public class stringUStringu {
+public class StringUStringu {
 
 	public static void main(String[] args) {
-		String prviString="haris";
-		String drugiString="hahar haris";
-		System.out.println(prviString);
-		System.out.println(drugiString);
+		Scanner unos = new Scanner(System.in);
+		System.out.println("Unesite prvi string: ");
+		String prviString = unos.next();
+		System.out.println("Unesite drugi string: ");
+		String drugiString = unos.next();
 		int prvaDuzina=prviString.length();
 		int drugaDuzina=drugiString.length();
 		int brojac_slova=0;
