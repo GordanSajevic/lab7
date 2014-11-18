@@ -1,0 +1,17 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class ElseIf {
+	public static void main(String[] args) {
+		Scanner unos = new Scanner (System.in);
+		System.out.println("Unesite jedan broj: ");
+		double broj = unos.nextDouble();
+		if ((broj<100)) 
+			System.out.println("Unijeli ste broj manji od 100.");
+		else if ((broj>100) && (broj<1000)) 
+			System.out.println("Unijeli ste broj većo od 100, a manji od 1000.");
+		else
+			System.out.println("Pretjera ga druže, smanji malo.");
+		}
+	}
