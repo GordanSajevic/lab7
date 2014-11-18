@@ -1,0 +1,25 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class Djelioci {
+
+	public static void main(String[] args) {
+		Scanner unos = new Scanner(System.in);
+		System.out.println("Unesite jedan broj:");
+		double broj=unos.nextDouble();
+		if ((broj % 2==0)||(broj % 3==0)||(broj % 4==0))
+		{
+			System.out.println("Broj je djeljiv sa 2, 3 ili 4");
+		}
+		else 
+			System.out.println("Broj nije djeljiv sa 2, 3 ili 4");
+		if ((broj% 2 ==0)&&(broj% 3 ==0))
+		{
+			System.out.println("Broj je djeljiv sa 6.");
+		}
+		else
+			System.out.println("Broj nije djeljiv sa 6");
+	}
+
+}
