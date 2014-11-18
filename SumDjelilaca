@@ -1,0 +1,22 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class SumaDjelilaca {
+	public static void main(String[] args) {
+		Scanner unos = new Scanner (System.in);
+		System.out.println("Unesite jedan broj: ");
+		double broj = unos.nextDouble();
+		double suma=0;
+		double brojac=broj;
+		while (brojac>0)
+		{
+			if (broj % brojac==0)
+			{
+				suma=suma + brojac;
+			}
+			brojac--;
+		}
+		System.out.println(suma);
+	}
+}
