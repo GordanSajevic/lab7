@@ -1,0 +1,21 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class Novac {
+	public static void main(String[] args) {
+		Scanner unos = new Scanner (System.in);
+		System.out.println("Unesite broj kovanica po 1 KM: ");
+		double marka = unos.nextInt();
+		System.out.println("Unesite broj kovanica po 0.5 KM: ");
+		double polaMarke = unos.nextInt();
+		System.out.println("Unesite broj kovanica po 0.2 KM: ");
+		double fening20 = unos.nextInt();
+		System.out.println("Unesite broj kovanica po 0.1 KM: ");
+		double fening10 = unos.nextInt();
+		System.out.println("Unesite broj kovanica po 0.05 KM: ");
+		double fening5 = unos.nextInt();
+		double novac = marka + polaMarke*0.5 + fening20*0.2 + fening10*0.1 + fening5*0.05;
+		System.out.println("Imate ukupno " + novac + " KM");
+	}
+}
