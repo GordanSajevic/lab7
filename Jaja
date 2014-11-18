@@ -1,0 +1,18 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class Jaja {
+
+	public static void main(String[] args) {
+		Scanner unos = new Scanner (System.in);
+		System.out.println("How many eggs yo have? ");
+		int brojJaja = unos.nextInt();
+		int gross = brojJaja / 144;
+		int brojGross = brojJaja % 144;
+		int tuce = brojGross / 12;
+		int ostatak = brojJaja % 12;
+		System.out.println("You have " + gross + " grosses, " + tuce + " dozens and " + ostatak + " extra eggs");
+	}
+
+}
