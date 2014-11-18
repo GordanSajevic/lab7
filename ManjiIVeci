@@ -1,0 +1,19 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class ManjiIVeci {
+	public static void main(String[] args) {
+		Scanner unos = new Scanner (System.in);
+		System.out.println("Unesite prvi broj: ");
+		double broj1 = unos.nextDouble();
+		System.out.println("Unesite drugi broj: ");
+		double broj2 = unos.nextDouble();
+		double rezultat=broj1-broj2;
+		if(rezultat<0)
+		{
+			rezultat = rezultat*(-1);
+		}
+		System.out.println("Razlika je: " + rezultat);
+	}
+}
